@@ -1,8 +1,8 @@
 {
-  "name": "peer-info",
+  "name": "@arve.knudsen/peer-info",
   "version": "0.15.1",
   "description": "IPFS Peer abstraction JavaScript implementation",
-  "leadMaintainer": "Pedro Teixeira <i@pgte.me>",
+  "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
   "scripts": {
     "lint": "aegir lint",
@@ -21,7 +21,7 @@
     "src",
     "dist"
   ],
-  "repository": "github:libp2p/js-peer-info",
+  "repository": "github:aknuds1/js-peer-info",
   "keywords": [
     "IPFS"
   ],
@@ -30,8 +30,8 @@
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "bugs": "https://github.com/libp2p/js-peer-info/issues",
-  "homepage": "https://github.com/libp2p/js-peer-info",
+  "bugs": "https://github.com/aknuds1/js-peer-info/issues",
+  "homepage": "https://github.com/aknuds1/js-peer-info",
   "devDependencies": {
     "aegir": "^18.2.2",
     "buffer-loader": "0.1.0",
@@ -42,7 +42,7 @@
   "dependencies": {
     "mafmt": "^6.0.7",
     "multiaddr": "^6.0.6",
-    "peer-id": "~0.12.2",
+    "@arve.knudsen/peer-id": "~0.12.2",
     "unique-by": "^1.0.0"
   },
   "contributors": [
