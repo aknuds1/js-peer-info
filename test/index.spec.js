@@ -5,7 +5,7 @@ const chai = require('chai')
 const dirtyChai = require('dirty-chai')
 chai.use(dirtyChai)
 const expect = chai.expect
-const Id = require('peer-id')
+const Id = require('@arve.knudsen/peer-id')
 const Multiaddr = require('multiaddr')
 const mafmt = require('mafmt')
 const Info = require('../src')
